@@ -4,12 +4,45 @@
 /*  General styles */
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: xx-large;
+    text-transform: uppercase;
+    font-size: 150%;
+    color: #2e2c2c;
 }
 
 /* Header styles */
 header {
     background-color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+/* Nav Bar dropdown styling*/
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+#burger-button:checked~nav {
+    display: block;
+}
+
+#burger-button {
+    display: none;
 }
 
 /* Main content styles */
