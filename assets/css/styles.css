@@ -24,7 +24,7 @@ h1 {
 
 /* Header styles */
 header {
-    background-color: lightcyan;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -50,6 +50,7 @@ nav {
     top: 100%;
 }
 
+/*  Dropdown */
 #burger-button:checked~nav {
     display: block;
 }
@@ -58,15 +59,32 @@ nav {
     display: none;
 }
 
-/* Main content styles */
-main {
-    background-color: orangered;
-    flex: 1 0 auto;
+header i {
+    padding: 0 15px;
 }
 
+/* Main content styles */
+main {
+    background-color: lightcyan;
+    flex: 1 0 auto;
+    background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
+    opacity: 0.7;
+}
 
 
 /* Footer styles */
-footer {
-    background-color: lightgreen;
+#social-media {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
 }
+
+#social-media i {
+    color: #2e2c2c;
+    padding: 20px 0;
+    font-size: xx-large;
+}
+
+
+
