@@ -16,11 +16,18 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-size: 150%;
     color: #2e2c2c;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    color: #2e2c2c;
+    margin: 5px 0;
 }
 
 /* Header styles */
@@ -70,10 +77,14 @@ header i {
 
 /* Main content styles */
 main {
-    background-color: lightcyan;
+    background-color: whitesmoke;
     flex: 1 0 auto;
+}
+
+#hero-image {
+    height: 565px;
+    width: 100%;
     background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
-    opacity: 0.7;
 }
 
 
