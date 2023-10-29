@@ -28,6 +28,12 @@ p {
     font-size: large;
     color: #2e2c2c;
     margin: 5px 0;
+    clear: right;
+}
+
+hr {
+    border-bottom: 2px soli #2e2c2c;
+    margin: 0 10px;
 }
 
 /* Header styles */
@@ -87,6 +93,13 @@ main {
     background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
 }
 
+/* Aside  menu*/
+#menu-aside {
+    display: block;
+    float: right;
+    position: fixed;
+    background-color: lightgray;
+}
 
 /* Footer styles */
 #social-media {
