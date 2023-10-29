@@ -96,6 +96,7 @@ main {
     background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
 }
 
+
 /* Aside  menu*/
 #menu-aside {
     display: block;
@@ -155,7 +156,7 @@ main {
 }        
 
 /* Media query: Laptops and larger (992px and up) */
-@media screen and (min-widt 992px) {
+@media screen and (min-widt: 992px) {
     h1 {
         font-size: 300%;
     }
