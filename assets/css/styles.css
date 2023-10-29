@@ -36,10 +36,6 @@ header a {
     color: inherit;
 }
 
-#menu {
-    list-style-type: none;
-}
-
 /* Nav Bar dropdown styling*/
 nav {
     position: absolute;
@@ -48,6 +44,13 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+    background-color: #ffffff;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 4px;
+    padding: 1px;
 }
 
 /*  Dropdown */
@@ -86,5 +89,28 @@ main {
     font-size: xx-large;
 }
 
+#follow-us {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font: bold;
+    align-self: center;
+}
 
+/* Media query: tables and larer (768px and up) */
+@media screen and (min-width:768px) {
 
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #burger-button {
+        display: none;
+    }
+
+    .burger-label {
+        display: none;
+    }
+}        
