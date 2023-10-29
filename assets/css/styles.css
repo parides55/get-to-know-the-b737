@@ -30,6 +30,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     position: relative;
+    z-index: 99;
 }
 
 header a {
@@ -46,6 +47,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+    font-style: bold;
 }
 
 #menu {
