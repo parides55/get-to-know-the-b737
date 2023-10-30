@@ -35,8 +35,8 @@ p {
 }
 
 hr {
-    border-bottom: 2px soli #2e2c2c;
-    margin: 0 10px;
+    border-bottom: 2px solid #2e2c2c;
+    margin: 10px;
 }
 
 .hidden {
@@ -115,6 +115,7 @@ main {
 
 /* Table styles */
 table {
+    position: relative;
     border-collapse: collapse;
     width: 800px;
     background-color: whitesmoke;
