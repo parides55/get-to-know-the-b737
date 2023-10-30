@@ -39,6 +39,10 @@ hr {
     margin: 0 10px;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Header styles */
 header {
     background-color: #ffffff;
