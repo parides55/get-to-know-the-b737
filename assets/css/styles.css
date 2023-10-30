@@ -94,20 +94,23 @@ main {
     flex: 1 0 auto;
 }
 
+/* Hero image*/
 #hero-image {
     height: 565px;
     width: 100%;
     background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
 }
 
-
-/* Aside  menu*/
-#menu-aside {
-    display: block;
-    float: right;
-    position: fixed;
-    background-color: lightgray;
+/* Gallery styles */
+#pictures img {
+    width: 100%;
+    line-height: 1em;
 }
+
+#pictures {
+    line-height: 0;
+}
+
 
 /* Footer styles */
 #social-media {
