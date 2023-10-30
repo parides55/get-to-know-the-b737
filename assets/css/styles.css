@@ -75,6 +75,7 @@ nav {
     letter-spacing: 4px;
 }
 
+
 /*  Dropdown */
 #burger-button:checked~nav {
     display: block;
@@ -133,6 +134,14 @@ main {
     align-self: center;
 }
 
+/* Media query: tables and larger (576px and up) */
+@media screen and (min-width:576px) {
+    #pictures {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larer (768px and up) */
 @media screen and (min-width:768px) {
 
@@ -151,6 +160,7 @@ main {
 
     #menu li {
         padding: 0 5px;
+        border-right: 1px solid #2e2c2c;
     }
 
     #burger-button {
@@ -160,11 +170,19 @@ main {
     .burger-label {
         display: none;
     }
+
+    #pictures {
+        column-count: 3;
+    }
 }        
 
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-widt: 992px) {
     h1 {
         font-size: 300%;
+    }
+
+    #pictures {
+        column-count: 4;
     }
 }
