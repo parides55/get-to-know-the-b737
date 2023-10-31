@@ -25,7 +25,7 @@
                 <li><a href="#history">History</a></li>
                 <li><a href="#technical">Technical</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="">Contact us</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
             </ul>
         </nav>
     </header>
@@ -38,11 +38,23 @@
 
         <!--History section-->
         <section id="history">
-            <h2>History of the aircraft</h2>
+        <h2>History of the aircraft</h2>
+        <div>
             <p>The Boeing 737 is a narrow-body aircraft produced by Boeing at its Everett and Renton factories in Washington.</p>
             <p>Developed to supplement the Boeing 727 on short and thin routes, the twinjet retains the 707 fuselage width and six abreast seating but with two underwing turbofans instead of four.</p>
             <p>Envisioned in 1964, the initial 737-100 made its first flight in April 1967 and entered service in February 1968 with Lufthansa.</p>
             <p>The lengthened 737-200 entered service in April 1968, and evolved through four generations, offering several variants for 85 to 215 passengers.</p>
+        </div>  
+        <div>
+            <video src=""></video>
+        </div> 
+        <div>
+            <p>The 737-100/200 original variants were powered by Pratt & Whitney JT8D low-bypass engines and offered seating for 85 to 130 passengers.</p>
+            <p>Launched in 1980 and introduced in 1984, the 737 Classic -300/400/500 variants were upgraded with CFM56-3 turbofans and offered 110 to 168 seats.</p>
+            <p>ntroduced in 1997, the 737 Next Generation (NG) -600/700/800/900 variants have updated CFM56-7 turbofans, a larger wing and an upgraded glass cockpit, and seat 108 to 215 passengers.</p>
+            <p>The latest generation, the 737 MAX, 737-7/8/9/10 MAX, powered by improved CFM LEAP-1B high bypass turbofans and accommodating 138 to 204 people, entered service in 2017.</p>
+            <p>Boeing Business Jet versions have been produced since the 737NG, as well as military models.</p>
+        </div>
         </section>
         <hr>
 
@@ -170,6 +182,46 @@
         <hr>
 
         <!--Feedback form-->
+        <form id="contact-us" action="https://formdump.codeinstitute.net" method="POST">
+           <h2>Feedback Form</h2>
+
+                <div id="details">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name">
+                    <label for="email-address">Email</label>
+                    <input type="email" name="email_address" id="email-address">
+                </div>
+
+                <div id="radio-buttons">
+                    <div>
+                        <label for="excelent">Excellent</label>
+                        <input type="radio" name="ratings" id="excellent" checked>
+                    </div>
+                    <div>    
+                        <label for="very-good">Very Good</label>
+                        <input type="radio" name="ratings" id="very-good">
+                    </div>
+                    <div>   
+                        <label for="good">Good</label>
+                        <input type="radio" name="ratings" id="good">
+                    </div>
+                    <div>
+                        <label for="needs-impromvent">Needs Improvement</label>
+                        <input type="radio" name="raatings" id="needs-improvement">
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Your feedback</h3>
+                    <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea>
+                </div>
+
+                <input type="submit" value="Submit" class="buttons">
+                <input type="reset" value="Clear Form" class="buttons">
+
+        </form>
     </main>
 
     <!--Footer-->
