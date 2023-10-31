@@ -113,8 +113,13 @@ main {
     left: 0;
 }
 
-/* Table styles */
+/* History styles */
+video {
+    height: 400px;
+    width: 400px;
+}
 
+/* Table styles */
 table {
     position: relative;
     border-collapse: collapse;
