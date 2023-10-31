@@ -21,7 +21,7 @@ h1, h2 {
     text-transform: uppercase;
     font-size: 200%;
     font-style: italic;
-    font-style: bold;
+    font-weight: bold;
     color: #2e2c2c;
     margin-left: 20px;
 }
