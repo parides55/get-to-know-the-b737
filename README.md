@@ -1,6 +1,0 @@
-# Welcome to my first project!
-
-## THE IDEA BEHIND THE WEBSITE 
-The initial idea for this website came from the fact that there are a lot of aviation enthousiasts out there who constantly looking to learn more about aviation and aircraft so I decided to build this website to give some history facts and basic technical details about the Boeing 737, one of the most used aircraft in the world. Altought, there plenty websites available with a lot of information about aircraft this website is looking to to educate but also to give the opportunity to the users to have a look to plenty of photos. The home page has a big hero image which is looking to attract immediately the attention of the user and invite the user to scroll further down for more information. On top right corner the navigation bar is found where you can easily navigate to the history of the aircraft, where history facts about the evolution of the aircraft are present, the technical details of the mostly used variants of B737-700/800/900, the gallery where plenty photos of all variants ara available and finaly to the feedback form where the user can make suggestions.  
-
-## STRUCTURE
