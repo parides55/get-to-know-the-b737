@@ -117,7 +117,7 @@ main {
     background-color: rgba(248, 248, 255, .5);
     color: #2e2c2c;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 200%;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -167,13 +167,16 @@ tr:hover {
     background-color: lightgrey;
 }
 
+
+
 /* Dimensions styling */
 #images-div {
     margin: 10px;
+    text-align: center;
 }
 
 .dimensions img {
-    width: 100%;
+    width: 90%;
 }
 
 .discr-dimensions {
@@ -251,6 +254,7 @@ footer {
         display: flex;
         justify-content: center;
     }
+
 }
 
 /* Media query: tablets and larer (768px and up) */
@@ -292,6 +296,17 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /* To make the tachnical tabel appear in the middle*/
+    #technical-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #overflow-table {
+        align-self: center;
     }
 }        
 
