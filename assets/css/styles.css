@@ -132,6 +132,11 @@ video {
     width: 100%;
 }
 
+#first-part {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    margin-top: 10px;
+}
 
 
 /* Technical section styles */
