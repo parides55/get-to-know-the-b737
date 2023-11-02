@@ -2,7 +2,7 @@
 
 The initial idea for this website came from the fact that there are a lot of aviation enthousiasts out there who constantly looking to learn more about aviation and aircraft so I decided to build this website to give some historic facts and basic technical details about the Boeing 737, one of the most used aircraft in the world. Altought, there plenty websites available with a lot of information about aircraft, this website is looking to present all these inforamtion not only by reading but also through images and videos.  
 
-![Responsive Mockup](/workspaces/get-to-know-the-b737/assets/readme-docs/mockup-optimized.webp)
+![Responsive Mockup](https://parides55-get-to-know-th-66hi6se9tk.us2.codeanyapp.com/files/download/?id=318bb996-601e-4e62-9fa4-e30ec6829fa1)
 
 ## Features 
 
