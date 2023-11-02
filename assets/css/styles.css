@@ -46,8 +46,10 @@ hr {
     margin: 10px;
 }
 
-.hidden {
-    display: none;
+button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
 
 /* Header styles */
@@ -125,21 +127,29 @@ main {
 }
 
 /* History styles */
-#history-video,
-#building-video {
-    height: 400px;
-    display: flex;
-}
-
 video {
     height: 400px;
     width: 100%;
-    align-items: center;
 }
 
 
 
 /* Technical section styles */
+
+/* Dimensions styling */
+#images-div {
+    margin: 10px;
+    text-align: center;
+}
+
+.dimensions img {
+    width: 90%;
+}
+
+.discr-dimensions {
+    text-align: center;
+    font-size: larger;
+}
 
 /* Table styling */
 table {
@@ -174,23 +184,6 @@ tr:hover {
     background-color: lightgrey;
 }
 
-
-
-/* Dimensions styling */
-#images-div {
-    margin: 10px;
-    text-align: center;
-}
-
-.dimensions img {
-    width: 90%;
-}
-
-.discr-dimensions {
-    text-align: center;
-    font-size: larger;
-}
-
 /* Gallery styles */
 .gallery {
     position: relative;
@@ -217,7 +210,6 @@ div.gallery img {
 }
 
 /* Feedback form */
-
 
 /* Footer styles */
 footer {
