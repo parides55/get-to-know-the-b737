@@ -14,8 +14,33 @@ The website consists of one page which can be scrolled down to view all the cont
 
 - __Navigation Bar__
 
-
-
 ![Navigation Bar](https://parides55-get-to-know-th-66hi6se9tk.us2.codeanyapp.com/files/download/?id=b965a65f-7605-4621-8f13-41ef93c10d98)
 
 ![Home Button](https://parides55-get-to-know-th-66hi6se9tk.us2.codeanyapp.com/files/download/?id=faef7a6f-5032-47e7-a48d-c7085c495bf0)
+
+- __Landing page__ 
+
+![Landing Page](https://parides55-get-to-know-th-66hi6se9tk.us2.codeanyapp.com/files/download/?id=464eee57-3d5c-42e2-a524-1a8b98c43276)
+
+- __History Section__
+
+- __Technical Section__
+
+- __Gallery section__
+
+- __Feedback form__
+
+- __The footer__
+
+### Features Left to Implement
+
+## Testing
+
+### Validator Testing
+
+### Unfixed bugs
+
+## Deployment
+
+## Credits
+
