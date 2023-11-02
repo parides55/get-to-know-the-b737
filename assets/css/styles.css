@@ -50,6 +50,12 @@ button {
     position: fixed;
     right: 0;
     bottom: 0;
+    padding: 5px;
+}
+
+button:hover {
+    font-size: xx-large;
+    border: 2px solid #2e2c2c;
 }
 
 /* Header styles */
@@ -122,8 +128,7 @@ main {
     font-size: 200%;
     position: absolute;
     bottom: 0;
-    right: 0;
-    text-align: right;
+    text-align: center;
 }
 
 /* History styles */
