@@ -226,7 +226,7 @@ div.gallery img {
 
 /* Feedback form */
 #feedback-form {
-    background: url(/assets/images/boeing737max-feedback-optimized.jpg) no-repeat center center / cover;
+    background: url(../images/boeing737max-feedback.jpg) no-repeat center center / cover;
 }
 
 #details {
