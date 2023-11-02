@@ -135,13 +135,13 @@ video {
 #first-part {
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 
 /* Technical section styles */
 
-/* Dimensions styling */
+/* Dimensions images styling */
 #images-div {
     margin: 10px;
     text-align: center;
@@ -250,7 +250,8 @@ footer {
 
     video {
         height: 400px;
-        width: 400px;
+        width: 100%;
+        padding: 0 250px;
     }
 
     /* Make the dimension images appear in a row*/
@@ -258,6 +259,7 @@ footer {
         display: flex;
         justify-content: center;
     }
+
 
 }
 
