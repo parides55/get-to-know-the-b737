@@ -393,7 +393,7 @@ footer {
 }        
 
 /* Media query: Laptops and larger (992px and up) */
-@media screen and (min-widt: 992px) {
+@media screen and (min-width: 992px) {
     h1 {
         font-size: 300%;
     }
