@@ -13,3 +13,9 @@ The website consists of one page which can be scrolled down to view all the cont
 ### Existing Features
 
 - __Navigation Bar__
+
+
+
+![Navigation Bar](https://parides55-get-to-know-th-66hi6se9tk.us2.codeanyapp.com/files/download/?id=b965a65f-7605-4621-8f13-41ef93c10d98)
+
+![Home Button](https://parides55-get-to-know-th-66hi6se9tk.us2.codeanyapp.com/files/download/?id=faef7a6f-5032-47e7-a48d-c7085c495bf0)
