@@ -46,6 +46,11 @@ hr {
     margin: 10px;
 }
 
+/* Home button styles */
+i {
+    color: #2e2c2c;
+}
+
 button {
     position: fixed;
     right: 0;
