@@ -220,6 +220,38 @@ div.gallery img {
 }
 
 /* Feedback form */
+#feedback-form {
+    background: url(/assets/images/boeing737max-feedback-optimized.jpg) no-repeat center center / cover;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input[type=text] {
+    width: 120px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px
+    
+}
+
+input[type=email] {
+    width: 120px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
 
 /* Footer styles */
 footer {
