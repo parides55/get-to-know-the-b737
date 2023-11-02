@@ -125,9 +125,16 @@ main {
 }
 
 /* History styles */
+#history-video,
+#building-video {
+    height: 400px;
+    display: flex;
+}
+
 video {
     height: 400px;
     width: 100%;
+    align-items: center;
 }
 
 
