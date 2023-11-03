@@ -184,8 +184,8 @@ table {
     position: relative;
     border-collapse: collapse;
     width: 800px;
-    background-color: whitesmoke;
-    border: 2px solid #3a3a3a;
+    background-color: #90AB9C;
+    border-top: 2px solid #3a3a3a;
     margin: 10px 0;
 }
 
@@ -196,7 +196,7 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: lightblue;
+    background-color: #DFFCEC;
 }
 
 .bold {
