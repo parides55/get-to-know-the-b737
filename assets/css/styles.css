@@ -14,9 +14,11 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
+    color: #2e2c2c;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-size: 200%;
@@ -232,6 +234,7 @@ div.gallery img {
 /* Footer styling */
 footer {
     border-top: 4px solid #2e2c2c;
+    background-color: #777;
 }
 
 /* Contact Form*/
@@ -242,7 +245,6 @@ footer {
     font-weight: bold;
     color: #2e2c2c;
     text-align: center;
-    margin: 10px 0;
 }
 
 #contact-form {
@@ -260,11 +262,6 @@ input[type=email] {
     height: 40px;
     font-size: large;
     padding: 10px;
-}
-
-.labels {
-    color: #2e2c2c;
-    font-family: 'Poppins', sans-serif;
 }
 
 #message {
@@ -293,18 +290,19 @@ input[type=reset] {
     font-style: italic;
 }
 
+#column1,
 #column2 {
     margin-top: 10px;
 }
 
 
 /* Social media links styles */
-
 #social-media {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
     text-align: center;
+    font-weight: bold;
 }
 
 #social-media i {
@@ -315,7 +313,6 @@ input[type=reset] {
 
 #follow-us {
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
     align-self: center;
     text-align: left;
     font-style: italic;
@@ -340,6 +337,30 @@ input[type=reset] {
         justify-content: center;
     }
 
+    /* Footer styling*/
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* To center the content in the footer*/
+    #column1 {
+        margin: 10px 10px 10px 0;
+        padding-left: 30px;
+    }
+
+    #column2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #social-media {
+        flex-direction: column;
+        margin: 8rem;
+    }
+
+
+
 
 }
 
@@ -356,7 +377,6 @@ input[type=reset] {
     #menu {
         display: flex;
         justify-content: space-between
-
     }
 
     #menu li {
@@ -394,7 +414,12 @@ input[type=reset] {
     #overflow-table {
         align-self: center;
     }
-}        
+
+    /* Footer styles */
+    #social-media {
+        font-size: x-large;
+    }
+}
 
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
