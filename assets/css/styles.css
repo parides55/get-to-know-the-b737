@@ -132,6 +132,7 @@ main {
 
 /* Cover Text styles */
 #cover-text {
+    display: none;
     width: 100%;
     background-color: rgba(248, 248, 255, .5);
     color: #2e2c2c;
@@ -208,7 +209,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: lightgrey;
+    background-color: #E8E5E5;
 }
 
 /* Gallery styles */
