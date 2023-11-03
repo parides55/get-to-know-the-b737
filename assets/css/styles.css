@@ -145,16 +145,8 @@ main {
 }
 
 /* History styles */
-video {
-    height: 400px;
-    width: 100%;
-}
 
-#first-part {
-    border-top: 2px solid lightgray;
-    border-bottom: 2px solid lightgray;
-    margin: 10px 0;
-}
+
 
 
 /* Technical section styles */
@@ -224,7 +216,8 @@ tr:hover {
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid #2e2c2c;
+    font-size: larger;
 }
 
 div.gallery img {
@@ -330,16 +323,10 @@ input[type=reset] {
     h1 {
         margin-left: 20px;
     }
-    
+
     #pictures {
         column-count: 2;
         column-gap: 0;
-    }
-
-    video {
-        height: 400px;
-        width: 100%;
-        padding: 0 250px;
     }
 
     /* Make the dimension images appear in a row*/
@@ -369,10 +356,6 @@ input[type=reset] {
         flex-direction: column;
         margin: 8rem;
     }
-
-
-
-
 }
 
 /* Media query: tablets and larer (768px and up) */
@@ -391,7 +374,8 @@ input[type=reset] {
 
     #menu {
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
+        margin-bottom: 10px;
     }
 
     #menu li {
@@ -405,11 +389,6 @@ input[type=reset] {
 
     .burger-label {
         display: none;
-    }
-
-    /* Gallery */
-    #pictures {
-        column-count: 3;
     }
 
     /* Table */
@@ -428,6 +407,11 @@ input[type=reset] {
 
     #overflow-table {
         align-self: center;
+    }
+
+    /* Gallery */
+    #pictures {
+        column-count: 3;
     }
 
     /* Footer styles */

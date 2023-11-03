@@ -39,6 +39,10 @@
 
     <!--Main Contetn-->
     <main>
+
+        <!--Home button to always return to the top of the page-->
+        <button id="home-button" type="button"><a href="#logo"><i class="fa-solid fa-house"></i></a></button>
+
         <!--Hero image-->
         <div id="hero-image">
             <div id="cover-text">Get to know the Boeing737</div>
@@ -49,48 +53,57 @@
         <!--History section-->
         <section id="history-section">
             <h2 id="history-heading">History of the aircraft</h2>
-            <div id="first-part">
-                <p>The Boeing 737 is a narrow-body aircraft produced by Boeing at its Everett and Renton factories in
-                    Washington. Developed to supplement the Boeing 727 on short and thin routes, the twinjet retains the
-                    707 fuselage width and six abreast seating but with two underwing turbofans instead of four.</p>
-                <p>Envisioned in 1964, the initial 737-100 made its first flight in April 1967 and entered service in
-                    February 1968 with Lufthansa.The lengthened 737-200 entered service in April 1968, and evolved
-                    through four generations, offering
-                    several variants for 85 to 215 passengers.</p>
-            </div>
+            <div id="main-content">
+                <div id="first-part">
+                    <div id="paragraphs">
+                        <p>The Boeing 737 is a narrow-body aircraft produced by Boeing at its Everett and Renton
+                            factories in
+                            Washington. Developed to supplement the Boeing 727 on short and thin routes, the twinjet
+                            retains the
+                            707 fuselage width and six abreast seating but with two underwing turbofans instead of four.
+                        </p>
+                        <p>Envisioned in 1964, the initial 737-100 made its first flight in April 1967 and entered
+                            service in
+                            February 1968 with Lufthansa.The lengthened 737-200 entered service in April 1968, and
+                            evolved
+                            through four generations, offering
+                            several variants for 85 to 215 passengers.</p>
+                    </div>
+                    <div id="history-video">
+                        <video src="assets/videos/History-Of-The-Boeing-737-Edited-optimized.mp4" controls
+                            aria-label="A video that narrates the history of the Boeing 737 aircraft with illustrates its development (it contains video controls, like play, pause, and volume)"
+                            preload="metadata"></video>
+                    </div>
+                </div>
 
-            <!--Home button to always return to the top of the page-->
-            <button id="home-button" type="button"><a href="#logo"><i class="fa-solid fa-house"></i></a></button>
-
-
-            <div id="history-video">
-                <video src="assets/videos/History-Of-The-Boeing-737-Edited-optimized.mp4" controls
-                    aria-label="A video that narrates the history of the Boeing 737 aircraft with illustrates its development (it contains video controls, like play, pause, and volume)"
-                    preload="metadata"></video>
-            </div>
-            <div id="second-part">
-                <p class="paragraphs" id="first-paragraph"><i class="fa-solid fa-plane"></i> The 737-100/200 original
-                    variants were powered by Pratt &
-                    Whitney JT8D low-bypass engines and offered
-                    seating for 85 to 130 passengers.</p>
-                <p class="paragraphs" id="second-paragraph"><i class="fa-solid fa-plane"></i> Launched in 1980 and
-                    introduced in 1984, the 737 Classic
-                    -300/400/500 variants were upgraded with
-                    CFM56-3 turbofans and offered 110 to 168 seats.</p>
-                <p class="paragraphs" id="third-paragraph"><i class="fa-solid fa-plane"></i> Introduced in 1997, the 737
-                    Next Generation (NG)
-                    -600/700/800/900 variants have updated CFM56-7
-                    turbofans, a larger wing and an upgraded glass cockpit, and seat 108 to 215 passengers. Boeing
-                    Business Jet versions have been produced since the 737NG, as well as military models.</p>
-                <p class="paragraphs" id="fourth-paragraph"><i class="fa-solid fa-plane"></i> The latest generation, the
-                    737 MAX, 737-7/8/9/10 MAX,
-                    powered by improved CFM LEAP-1B high bypass
-                    turbofans and accommodating 138 to 204 people, entered service in 2017.</p>
-            </div>
-            <div id="building-video">
-                <video src="assets/videos/How-Boeing-Builds-A-737-Plane-In-Just9Days-Edited-optimized.mp4" controls
-                    aria-label="A video that shows and narrates the 9 day building proccess, from the start until the first flight, of the Boeing 737-MAX8200 (it contains video controls, like play, pause, and volume)."
-                    preload="metadata"></video>
+                <div id="second-part">
+                    <p class="paragraphs" id="first-paragraph"><i class="fa-solid fa-plane"></i> The 737-100/200
+                        original
+                        variants were powered by Pratt &
+                        Whitney JT8D low-bypass engines and offered
+                        seating for 85 to 130 passengers.</p>
+                    <p class="paragraphs" id="second-paragraph"><i class="fa-solid fa-plane"></i> Launched in 1980 and
+                        introduced in 1984, the 737 Classic
+                        -300/400/500 variants were upgraded with
+                        CFM56-3 turbofans and offered 110 to 168 seats.</p>
+                    <p class="paragraphs" id="third-paragraph"><i class="fa-solid fa-plane"></i> Introduced in 1997, the
+                        737
+                        Next Generation (NG)
+                        -600/700/800/900 variants have updated CFM56-7
+                        turbofans, a larger wing and an upgraded glass cockpit, and seat 108 to 215 passengers. Boeing
+                        Business Jet versions have been produced since the 737NG, as well as military models.</p>
+                    <p class="paragraphs" id="fourth-paragraph"><i class="fa-solid fa-plane"></i> The latest generation,
+                        the
+                        737 MAX, 737-7/8/9/10 MAX,
+                        powered by improved CFM LEAP-1B high bypass
+                        turbofans and accommodating 138 to 204 people, entered service in 2017.</p>
+                    <div id="building-video">
+                        <video src="assets/videos/How-Boeing-Builds-A-737-Plane-In-Just9Days-Edited-optimized.mp4"
+                            controls
+                            aria-label="A video that shows and narrates the 9 day building proccess, from the start until the first flight, of the Boeing 737-MAX8200 (it contains video controls, like play, pause, and volume)."
+                            preload="metadata"></video>
+                    </div>
+                </div>
             </div>
 
             <div id="concluding-part">
@@ -279,15 +292,18 @@
             <form id="contact-form" action="#thankyou-pahe.html" method="POST">
                 <h3 id="contact-heading">Contact</h3>
                 <label for="first-name" class="labels">First Name</label>
-                <input type="text" name="first-name" id="first-name" autocomplete="on" placeholder="First Name" required>
+                <input type="text" name="first-name" id="first-name" autocomplete="on" placeholder="First Name"
+                    required>
                 <label for="last-name" class="labels">Last Name</label>
                 <input type="text" name="last-name" id="last-name" autocomplete="on" placeholder="Last Name" required>
                 <label for="email-address" class="labels">Email</label>
-                <input type="email" name="email-address" id="email-address" autocomplete="on" placeholder="Your email" required>
+                <input type="email" name="email-address" id="email-address" autocomplete="on" placeholder="Your email"
+                    required>
 
                 <div id="textarea">
                     <label for="message" class="labels">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write here your message"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Write here your message"></textarea>
                 </div>
 
                 <div id="form-buttons">
