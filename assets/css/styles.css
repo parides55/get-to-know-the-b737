@@ -206,10 +206,6 @@ tr:hover {
 }
 
 /* Gallery styles */
-#gallery-section {
-    margin-bottom: 10px;
-}
-
 .gallery {
     position: relative;
 }
@@ -395,6 +391,21 @@ input[type=reset] {
 
     .burger-label {
         display: none;
+    }
+
+    /* History section */
+    #main-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main-content video {
+        width: 100%;
+    }
+
+    #first-part,
+    #second-part {
+        margin: 0 20px;
     }
 
     /* Table */
