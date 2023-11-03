@@ -173,7 +173,7 @@ main {
 .dimensions img {
     width: 100%;
     padding: 15px;
-    height: 300px;
+    height: 350px;
 }
 
 .discr-dimensions {
@@ -266,21 +266,23 @@ input[type=email] {
     border-radius: 5px;
     font-weight: bold;
     border: 2px solid #2e2c2c;
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: large;
     padding: 10px;
     background-color: transparent;
+    margin-left: 5px;
 }
 
 #message {
     border-radius: 5px;
     font-weight: bold;
     border: 2px solid #2e2c2c;
-    width: 100%;
+    width: 95%;
     font-size: large;
     padding: 5px;
     background-color: transparent;
+    margin-left: 5px;
 }
 
 #form-buttons {
