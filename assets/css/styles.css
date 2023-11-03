@@ -71,7 +71,7 @@ button:hover {
 
 /* Header styles */
 header {
-    background-color: #ffffff;
+    background-color: #D3D0D0;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -89,7 +89,7 @@ header a {
 /* Nav Bar dropdown styling*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #D3D0D0;
     width: 100%;
     left: 0;
     padding: 0 1rem;
