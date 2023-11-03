@@ -144,6 +144,10 @@ main {
 }
 
 /* History styles */
+#history-section {
+    background-color: #808776;
+}
+
 #main-content {
     width: 100%;
     display: flex;
@@ -155,6 +159,9 @@ main {
 }
 
 /* Technical section styles */
+#technical-section {
+    background-color: #90AB9C;
+}
 
 /* Dimensions images styling */
 #images-div {
@@ -205,6 +212,10 @@ tr:hover {
 }
 
 /* Gallery styles */
+#gallery-section {
+    background-color: #A1CFCD;
+}
+
 .gallery {
     position: relative;
 }
@@ -233,7 +244,7 @@ div.gallery img {
 /* Footer styling */
 footer {
     border-top: 4px solid #2e2c2c;
-    background-color: #D3FBD8;
+    background-color: #D3D0D0;
 }
 
 /* Contact Form*/
@@ -286,7 +297,7 @@ input[type=reset] {
     padding: 5px 20px;
     font-size: large;
     font-weight: bold;
-    color: #D3FBD8;
+    color: #D3D0D0;
     background-color: #2e2c2c;
     font-style: italic;
 }
