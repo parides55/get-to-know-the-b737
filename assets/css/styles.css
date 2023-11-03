@@ -25,14 +25,14 @@ h2 {
     font-style: italic;
     font-weight: bold;
     color: #2e2c2c;
-    margin-left: 20px;
+    margin-left: 10px;
     letter-spacing: 5px;
 }
 
 /* To center all h2 only */
 h2 {
     text-align: center;
-    margin: 0;
+    margin: 0 0 10px 0;
     letter-spacing: 3px;
 }
 
@@ -78,6 +78,7 @@ header {
     position: relative;
     z-index: 99;
     border-bottom: 2px solid #2e2c2c;
+    padding: 10px 0;
 }
 
 header a {
@@ -118,7 +119,7 @@ header i {
 
 /* Main content styles */
 main {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     flex: 1 0 auto;
 }
 
@@ -207,6 +208,10 @@ tr:hover {
 }
 
 /* Gallery styles */
+#gallery-section {
+    margin-bottom: 10px;
+}
+
 .gallery {
     position: relative;
 }
@@ -234,7 +239,7 @@ div.gallery img {
 /* Footer styling */
 footer {
     border-top: 4px solid #2e2c2c;
-    background-color: #777;
+    background-color: #D3FBD8;
 }
 
 /* Contact Form*/
@@ -262,6 +267,7 @@ input[type=email] {
     height: 40px;
     font-size: large;
     padding: 10px;
+    background-color: transparent;
 }
 
 #message {
@@ -271,6 +277,7 @@ input[type=email] {
     width: 100%;
     font-size: large;
     padding: 5px;
+    background-color: transparent;
 }
 
 #form-buttons {
@@ -285,7 +292,7 @@ input[type=reset] {
     padding: 5px 20px;
     font-size: large;
     font-weight: bold;
-    color: #ffffff;
+    color: #D3FBD8;
     background-color: #2e2c2c;
     font-style: italic;
 }
@@ -320,6 +327,10 @@ input[type=reset] {
 
 /* Media query: tables and larger (576px and up) */
 @media screen and (min-width:576px) {
+    h1 {
+        margin-left: 20px;
+    }
+    
     #pictures {
         column-count: 2;
         column-gap: 0;
@@ -368,6 +379,10 @@ input[type=reset] {
 @media screen and (min-width:768px) {
 
     /* Header */
+    h1 {
+        margin-left: 30px;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -425,6 +440,7 @@ input[type=reset] {
 @media screen and (min-width: 992px) {
     h1 {
         font-size: 300%;
+        margin-left: 40px;
     }
 
     #pictures {
