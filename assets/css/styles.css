@@ -199,11 +199,6 @@ tr:nth-child(even) {
     background-color: #DFFCEC;
 }
 
-.bold {
-    font-weight: bold;
-    font-size: large;
-}
-
 #overflow-table {
     overflow-x: auto;
 }
