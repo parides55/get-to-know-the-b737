@@ -64,6 +64,10 @@ The website consists of one page which can be scrolled down to view all the cont
    
 
 ## Testing
+  - I tested the website in Chrome and Microsoft Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working
+  - The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
+  - I tested that all text is easy to read and to understand
+  - The code got valified through both [CSS Validator](https://jigsaw.w3.org/css-validator/validator) and [HTML Validator]().
 
 ### Validator Testing
 
