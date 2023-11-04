@@ -71,14 +71,10 @@ Due to lack of time, I wasn't able to make the gallery photos to have the same d
   - I tested that all text is easy to read and to understand
 
 ### Validator Testing
-
-- [CSS Validator](https://jigsaw.w3.org/css-validator/validator)
-
-- [HTML Validator](https://validator.w3.org/nu/#l45c76)
-
-- Lighthouse reports 
-
-
+  - HTML Validator <img src="assets/readme-docs/reports/HTML Validator-optimize.jpg">
+  - CSS Validator <img src="assets/readme-docs/reports/CSS Validator-optimize.jpg">
+  - Lighthouse Desktopo Report <img src="assets/readme-docs/reports/lighthouse-desktop-optimize.jpg">
+  - Lighthouse Mobile Report <img src="assets/readme-docs/reports/lighthouse-mobile-optimize.jpg">
 
 ### Unfixed bugs
  - No unfixed bugs found.
