@@ -40,7 +40,9 @@
     <main>
 
         <!--Home button to always return to the top of the page-->
-        <button id="home-button" type="button"><a href="#logo"><i class="fa-solid fa-house"></i></a></button>
+        <a href="#logo">
+            <button id="home-button" type="button"><i class="fa-solid fa-house"></i></button>
+        </a>
 
         <!--Hero image-->
         <div id="hero-image"></div>
@@ -62,7 +64,7 @@
                     <div id=history-section-image>
                         <a target="_blank" href="assets/images/turbofan-engines-optimized.jpeg"
                             aria-label="A close up view of the Boeing 737 where its turbofan engines are well shown (opens in a new tab)"><img
-                                id="history image" src="assets/images/turbofan-engines-optimized.jpeg"
+                                id="history-image" src="assets/images/turbofan-engines-optimized.jpeg"
                                 alt="A close up view of the Boeing 737 where its turbofan engines are well shown."></a>
                     </div>
                     <div id="paragraphs2">
@@ -76,10 +78,9 @@
                         </p>
                     </div>
                     <div id="history-video">
-                        <video src="assets/videos/History-Of-The Boeing-737-Edited-optimized.mp4" controls
+                        <video src="assets/videos/History-Of-The-Boeing-737-Edited-optimized.mp4" controls
                             aria-label="A video that narrates the history of the Boeing 737 aircraft with illustrates its development (it contains video controls, like play, pause, and volume)"
                             preload="metadata">
-                            <caption>The evolution of the B737 in pictures</caption>
                         </video>
                     </div>
                 </div>
@@ -110,7 +111,6 @@
                             controls
                             aria-label="A video that shows and narrates the 9 day building proccess, from the start until the first flight, of the Boeing 737-MAX8200 (it contains video controls, like play, pause, and volume)."
                             preload="metadata">
-                            <caption>How the B737 is build in 9 days</caption>
                         </video>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
         <!--Technical-->
         <section id="technical-section">
             <div id="technical-heading">
-                <h2 id="technical-heading">Technical details</h2>
+                <h2>Technical details</h2>
             </div>
             <div id="images-div">
                 <div class="dimensions">
