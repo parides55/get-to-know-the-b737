@@ -28,7 +28,7 @@ The website consists of one page which can be scrolled down to view all the cont
 
 - The landing page has an big hero image wich is very enageging and immediatetly the user can understand what the website is about.
 
-![Landing Page]()
+<img src="assets/readme-docs/website-screenshot/landing-page-optimized.jpg">
 
 - __History Section__
   - In the history section a brief history of the evolution of the aircraft is described and when each model was built, present like a magazine page in a 2 column configuration, where on smaller screens is presented as a sinlge column.

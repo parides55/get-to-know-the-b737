@@ -126,22 +126,8 @@ main {
 #hero-image {
     height: 565px;
     width: 100%;
-    background: url(../images/black-white-optimized.jpeg) no-repeat center center/cover;
+    background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
     position: relative;
-}
-
-/* Cover Text styles */
-#cover-text {
-    display: none;
-    width: 100px;
-    background-color: transparent;
-    color: #2e2c2c;
-    font-weight: bold;
-    font-size: 200%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    font-style: italic;
 }
 
 /* History styles */
