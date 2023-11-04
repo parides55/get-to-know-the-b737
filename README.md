@@ -75,7 +75,7 @@ The website consists of one page which can be scrolled down to view all the cont
 ## Wireframes
 
    Below you can see the initial idea regarding the design of the pages.
-   - Initial the navigation bar was position in the middle under the hero image but it was destracting the user from the hero image.
+   - Initially the navigation bar was position in the middle under the hero image but it was destracting the user from the hero image.
    - The contact form initially was a seperate page but didn't look nice and failed to connect well with the rest of the webpage, so by placing to the footer blended nicer.
 
 <img src="assets/readme-docs/wireframes/wireframe-home page.png">
