@@ -71,7 +71,7 @@ button:hover {
 
 /* Header styles */
 header {
-    background-color: #D3D0D0;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -89,7 +89,7 @@ header a {
 /* Nav Bar dropdown styling*/
 nav {
     position: absolute;
-    background-color: #D3D0D0;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -126,15 +126,15 @@ main {
 #hero-image {
     height: 565px;
     width: 100%;
-    background: url(../images/new-scaled-homepagepic.jpg) no-repeat center center/cover;
+    background: url(../images/black-white-optimized.jpeg) no-repeat center center/cover;
     position: relative;
 }
 
 /* Cover Text styles */
 #cover-text {
     display: none;
-    width: 100%;
-    background-color: rgba(248, 248, 255, .5);
+    width: 100px;
+    background-color: transparent;
     color: #2e2c2c;
     font-weight: bold;
     font-size: 200%;
@@ -146,7 +146,7 @@ main {
 
 /* History styles */
 #history-section {
-    background-color: #808776;
+    background-color: #628281;
 }
 
 #main-content {
@@ -155,8 +155,16 @@ main {
     flex-direction: column;
 }
 
-#main-content video {
+video {
     width: 100vw;
+}
+
+#history image {
+    width: 100%;
+}
+
+#history-section-image img {
+    width: 100%;
 }
 
 /* Technical section styles */
