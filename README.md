@@ -34,7 +34,7 @@ The website consists of one page which can be scrolled down to view all the cont
   - In the history section a brief history of the evolution of the aircraft is described and when each model was built, present like a magazine page in a 2 column configuration, where on smaller screens is presented as a sinlge column.
   - It has a picture of a Boeing 737 where it's 2 big modern engines are shown and at the bottom of page there 2 videos, one showing the evolution of the aircraft in pictures and the other one how the aircraft is built.
 
-  <img src="assets/readme-docs/website-screenshot/history-optimized.jpg">
+  <img src="assets/readme-docs/website-screenshot/optimized-history.jpg">
 
 - __Technical Section__
   - The technical section presents the dimensions and the performance characteristics of the most used variants of the Boeing 737.
