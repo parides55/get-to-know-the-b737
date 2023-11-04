@@ -31,7 +31,6 @@ The website consists of one page which can be scrolled down to view all the cont
 ![Landing Page]()
 
 - __History Section__
-
   - In the history section a brief history of the evolution of the aircraft is described and when each model was built, present like a magazine page in a 2 column configuration, where on smaller screens is presented as a sinlge column.
   - It has a picture of a Boeing 737 where it's 2 big modern engines are shown and at the bottom of page there 2 videos, one showing the evolution of the aircraft in pictures and the other one how the aircraft is built.
 
@@ -73,7 +72,18 @@ The website consists of one page which can be scrolled down to view all the cont
 
 ## Technology Used
 
+## Wireframes
 
+   Below you can see the initial idea regarding the design of the pages.
+   - Initial the navigation bar was position in the middle under the hero image but it was destracting the user from the hero image.
+   - The contact form initially was a seperate page but didn't look nice and failed to connect well with the rest of the webpage, so by placing to the footer blended nicer.
+
+<img src="assets/readme-docs/wireframes/wireframe-home page.png">
+<img src="assets/readme-docs/wireframes/wireframe-History.png">
+<img src="assets/readme-docs/wireframes/wireframe-Technical-details.png">
+<img src="assets/readme-docs/wireframes/wireframe-gallery.png">
+<img src="assets/readme-docs/wireframes/wireframe-contact.png">
+<img src="assets/readme-docs/wireframes/wireframe-contact.png">
 
 <hr>
 
@@ -83,7 +93,7 @@ The website consists of one page which can be scrolled down to view all the cont
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://parides55.github.io/get-to-know-the-b737/
+The live link can be found here - https://github.com/parides55/get-to-know-the-b737
 
 <hr>
 
@@ -101,5 +111,5 @@ The live link can be found here - https://parides55.github.io/get-to-know-the-b7
 - The code to make the gallery responsive was taken from the [Love Running project-Gallery](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/391954f5ae8547e180a539c0d51e063c/)
 - The hoover feature of the gallery was taken from the [W3School-Gallery](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery)
 
-<strong> Many thanks to my mentor Okwudiri for his guidance and isnpiration. A big thank you to my wife for her support and honest opinion. 
+<strong> Many thanks to my mentor Okwudiri for his guidance and isnpiration. A big thank you to my wife for her support and honest opinions :) 
  
