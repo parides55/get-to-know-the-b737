@@ -65,6 +65,8 @@ The website consists of one page which can be scrolled down to view all the cont
 
 ### Unfixed bugs
 
+<hr>
+
 ## Deployment 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -72,5 +74,21 @@ The website consists of one page which can be scrolled down to view all the cont
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://parides55.github.io/get-to-know-the-b737/
-## Credits
 
+<hr>
+
+## Credits
+ 
+ ### Media and Content
+ - The pictures were taken from Google search
+ - THe videos are from https://www.youtube.com/watch?v=liZ0WEEsuz4&list=PPSV and https://www.youtube.com/watch?v=KzmF-AYk81Q&list=PPSV. 
+ - The pictures for aircraft dimensions and the data in the technical table were taken from the Fligth Crew Operation Manual (FCOM) of the aircraft.
+- The content of the history section was found in https://en.wikipedia.org/wiki/Boeing_737
+
+### Code
+- The code to make the navigation bar responsive and to create the doggle button on small screens was taken form the [Love Running Project-Toggle Button](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first)
+- The code to style and make the table responsive was taken form [W3School-Responsive Table](https://www.w3schools.com/css/tryit.asp?filename=trycss_table_responsive) and [W3School-Styling the table](https://www.w3schools.com/css/css_table_style.asp)
+- The code to make the gallery responsive was taken from the [Love Running project-Gallery](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/391954f5ae8547e180a539c0d51e063c/)
+- The hoover feature of the gallery was taken from the [W3School-Gallery](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery)
+
+ 
