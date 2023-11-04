@@ -4,6 +4,8 @@ The initial idea for this website came from the fact that there are a lot of avi
 
 ![Responsive Mockup]()
 
+<hr>
+
 ## Features 
 
 The website consists of one page which can be scrolled down to view all the content. The landing page has a big hero image which is aiming to attract immediately the attention of the user and invite the user to scroll further down for more information. On the right top corner of the header there is a navigation bar, which can be used to easily navigate to any part of the website. Also, in the bottom right corner there is a Home Button, fixed in position, which when pressed it takes the user all the way up to the header, where the navigation bar is, and further selections can be made. Below the landing page, is the History section where the history of the aircraft is described. Also, some videos are included to give further information. Scrollind further down the user can enjoy some very engaging and informative pictures about the technical characteristic of the mostly used variants of the Boeing 737 and a table which presents the performance characteristics of those variants. Before reaching the Footer, the user can watch images of all Boeing 737 variants in the gallery section and which can be opened in a seperated tab for better viewing. Lastly, in the Footer, the user can send a message to the website and also send some of the pictures that the user might have to the website throught the social media, which can be accessed by clicking on the social media icons.
@@ -18,9 +20,9 @@ The website consists of one page which can be scrolled down to view all the cont
   - Part of the navigation bar is the home button, which has fixed position on the right of the page and slightly above the bottom, to give the option and the flexibilitty to the user to go directly to the navigation bar to make other selections. 
 
 
-![Navigation Bar]()
+<img src="assets/readme-docs/website-screenshot/nav-bar-optimized.jpg">
 
-![Home Button]()
+<img src="assets/readme-docs/website-screenshot/home-button-optimized.jpg">
 
 - __Landing page__ 
 
@@ -33,26 +35,28 @@ The website consists of one page which can be scrolled down to view all the cont
   - In the history section a brief history of the evolution of the aircraft is described and when each model was built, present like a magazine page in a 2 column configuration, where on smaller screens is presented as a sinlge column.
   - It has a picture of a Boeing 737 where it's 2 big modern engines are shown and at the bottom of page there 2 videos, one showing the evolution of the aircraft in pictures and the other one how the aircraft is built.
 
-  ![History Section]()
+  <img src="assets/readme-docs/website-screenshot/history-optimized.jpg">
 
 - __Technical Section__
   - The technical section presents the dimensions and the performance characteristics of the most used variants of the Boeing 737.
   - The 3 pictures show the dimensions of the aircraft, and when clicked they open in anew tab for better viewing, where the table presents the performance characteristics.
   - This section is fully responsive and on small screens the 3 pistures and the table will appear in one column. The table has an overlow propeerty, which will allow the user to scroll horizontally to see all the information.
 
-  ![Technical section]()
+  <img src="assets/readme-docs/website-screenshot/technical-optimized.jpg">
 
 - __Gallery section__
   - The gallery is fully responsive as well and shows a picture of all models variants of the Boeing 737, with a cover text on each pictures showing the model that is shown. When the pictures are clicked they open in a new tab for better viewing.
   - One smaller screens the pictures are shown in a single column and as the screen expands the pictures are spread into more columns in order to take any extra space.
   - There is a hover feature which allows the user to see what picture is about to select or has been selected
 
+<img src="assets/readme-docs/website-screenshot/gallery-optimized.jpg">
+
 - __The footer__
   - In the footer section can be found a contact form and social media links.
   - The user can click any of the social media icons and can send there an picture that might have and wants to share it with the website. (*) There are no social media pages created yet, that's why when social media icons are click the links takes the user to the home pae of those social media. 
   - The contact form can be used to send any message to the website developer.
 
-![Footer]()
+<img src="assets/readme-docs/website-screenshot/footer-optimized.jpg">
 
 <hr>
 
@@ -64,6 +68,12 @@ The website consists of one page which can be scrolled down to view all the cont
 ### Validator Testing
 
 ### Unfixed bugs
+
+<hr>
+
+## Technology Used
+
+
 
 <hr>
 
@@ -80,7 +90,7 @@ The live link can be found here - https://parides55.github.io/get-to-know-the-b7
 ## Credits
  
  ### Media and Content
- - The pictures were taken from Google search
+ - The images were taken from Google search.
  - THe videos are from https://www.youtube.com/watch?v=liZ0WEEsuz4&list=PPSV and https://www.youtube.com/watch?v=KzmF-AYk81Q&list=PPSV. 
  - The pictures for aircraft dimensions and the data in the technical table were taken from the Fligth Crew Operation Manual (FCOM) of the aircraft.
 - The content of the history section was found in https://en.wikipedia.org/wiki/Boeing_737
@@ -91,4 +101,5 @@ The live link can be found here - https://parides55.github.io/get-to-know-the-b7
 - The code to make the gallery responsive was taken from the [Love Running project-Gallery](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/391954f5ae8547e180a539c0d51e063c/)
 - The hoover feature of the gallery was taken from the [W3School-Gallery](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery)
 
+<strong> Many thanks to my mentor Okwudiri for his guidance and isnpiration. A big thank you to my wife for her support and honest opinion. 
  
