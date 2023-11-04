@@ -2,7 +2,7 @@
 
 The initial idea for this website came from the fact that there are a lot of aviation enthousiasts out there who constantly looking to learn more about aviation and aircraft so I decided to build this website to give some historic facts and basic technical details about the Boeing 737, one of the most used aircraft in the world. Altought, there plenty websites available with a lot of information about aircraft, this website is looking to present all these inforamtion not only by reading but also through images and videos.  
 
-<img src="assets/readme-docs/mockup-optimized.jpg">
+<img src="assets/readme-docs/new-mockup-optimized.jpg">
 
 <hr>
 
@@ -10,7 +10,7 @@ The initial idea for this website came from the fact that there are a lot of avi
 
 The website consists of one page which can be scrolled down to view all the content. The landing page has a big hero image which is aiming to attract immediately the attention of the user and invite the user to scroll further down for more information. On the right top corner of the header there is a navigation bar, which can be used to easily navigate to any part of the website. Also, in the bottom right corner there is a Home Button, fixed in position, which when pressed it takes the user all the way up to the header, where the navigation bar is, and further selections can be made. Below the landing page, is the History section where the history of the aircraft is described. Also, some videos are included to give further information. Scrollind further down the user can enjoy some very engaging and informative pictures about the technical characteristic of the mostly used variants of the Boeing 737 and a table which presents the performance characteristics of those variants. Before reaching the Footer, the user can watch images of all Boeing 737 variants in the gallery section and which can be opened in a seperated tab for better viewing. Lastly, in the Footer, the user can send a message to the website and also send some of the pictures that the user might have to the website throught the social media, which can be accessed by clicking on the social media icons.
 
-![Home Page]()  
+<img src="assets/readme-docs/website-screenshot/landing-page-optimized.jpg"> 
 
 ### Existing Features
 
@@ -52,26 +52,36 @@ The website consists of one page which can be scrolled down to view all the cont
 
 - __The footer__
   - In the footer section can be found a contact form and social media links.
-  - The user can click any of the social media icons and can send there an picture that might have and wants to share it with the website. (*) There are no social media pages created yet, that's why when social media icons are click the links takes the user to the home pae of those social media. 
-  - The contact form can be used to send any message to the website developer.
+  - The user can click any of the social media icons and can send there an picture that might have and wants to share it with the website. (*) There are no social media pages created yet, that's why when social media icons are click the links takes the user to the home page of those social media. 
+  - The contact form can be used to send any message to the website developer. (*) Once the form is sumbited the user is taken to the [Code Institute-form dump](http://formdump.codeinstitute.net)
 
 <img src="assets/readme-docs/website-screenshot/footer-optimized.jpg">
 
 <hr>
 
 ### Features Left to Implement
-  - Due to time, I wasn't able to make the gallery photos to have the same diamensions. Also, I would like to have a page where the user can see when they sumbit a messaege. 
+
+Due to lack of time, I wasn't able to make the gallery photos to have the same diamensions. Also, I would like to have creted a page which the user can see when they sumbit a messaege via the contact form.
    
+<hr>
 
 ## Testing
   - I tested the website in Chrome and Microsoft Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working
   - The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
   - I tested that all text is easy to read and to understand
-  - The code got valified through both [CSS Validator](https://jigsaw.w3.org/css-validator/validator) and [HTML Validator]().
 
 ### Validator Testing
 
+- [CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+
+- [HTML Validator](https://validator.w3.org/nu/#l45c76)
+
+- Lighthouse reports 
+
+
+
 ### Unfixed bugs
+ - No unfixed bugs found.
 
 <hr>
 
