@@ -57,7 +57,7 @@ The website consists of one page which can be scrolled down to view all the cont
 <hr>
 
 ### Features Left to Implement
-
+  - 
 
 ## Testing
 
@@ -65,7 +65,12 @@ The website consists of one page which can be scrolled down to view all the cont
 
 ### Unfixed bugs
 
-## Deployment
+## Deployment 
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+The live link can be found here - https://parides55.github.io/get-to-know-the-b737/
 ## Credits
 
