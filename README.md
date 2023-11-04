@@ -26,7 +26,7 @@ The website consists of one page which can be scrolled down to view all the cont
 
 - __Landing page__ 
 
-- The landing page has an 
+- The landing page has an big hero image wich is very enageging and immediatetly the user can understand what the website is about.
 
 ![Landing Page]()
 
@@ -60,7 +60,8 @@ The website consists of one page which can be scrolled down to view all the cont
 <hr>
 
 ### Features Left to Implement
-  - 
+  - Due to time, I wasn't able to make the gallery photos to have the same diamensions. Also, I would like to have a page where the user can see when they sumbit a messaege. 
+   
 
 ## Testing
 
@@ -71,6 +72,11 @@ The website consists of one page which can be scrolled down to view all the cont
 <hr>
 
 ## Technology Used
+  - The social media icons and the icons in history section were taken from [Font Awesome](https://fontawesome.com/account) 
+  - The favicon was creted and generated in the [faicon.io](https://favicon.io/favicon-generator/)
+  - The fonts used are 'Poppins'and 'Oswald', from [Google Fonts](https://fonts.google.com/)
+  - To optimize the images [GIMP](https://www.gimp.org/) was used.
+  - To optimize the videos [HandBrake](https://handbrake.fr/) was used.
 
 ## Wireframes
 
@@ -83,7 +89,7 @@ The website consists of one page which can be scrolled down to view all the cont
 <img src="assets/readme-docs/wireframes/wireframe-Technical-details.png">
 <img src="assets/readme-docs/wireframes/wireframe-gallery.png">
 <img src="assets/readme-docs/wireframes/wireframe-contact.png">
-<img src="assets/readme-docs/wireframes/wireframe-contact.png">
+<img src="assets/readme-docs/wireframes/wireframe-footer.png">
 
 <hr>
 
@@ -93,7 +99,9 @@ The website consists of one page which can be scrolled down to view all the cont
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://github.com/parides55/get-to-know-the-b737
+The live link to GitHub can be found here - https://github.com/parides55/get-to-know-the-b737
+
+The link to the website is - https://parides55.github.io/get-to-know-the-b737/
 
 <hr>
 
