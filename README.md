@@ -77,6 +77,7 @@ The website consists of one page which can be scrolled down to view all the cont
   - The fonts used are 'Poppins'and 'Oswald', from [Google Fonts](https://fonts.google.com/)
   - To optimize the images [GIMP](https://www.gimp.org/) was used.
   - To optimize the videos [HandBrake](https://handbrake.fr/) was used.
+  - For the color selection of the website [ColorSpace](https://mycolor.space/) was used.
 
 ## Wireframes
 
